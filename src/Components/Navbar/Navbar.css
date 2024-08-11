@@ -1,0 +1,83 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    box-shadow: 0 1px 3px -2px black;
+    
+}
+.navlogo{
+    display: flex;
+    align-items: center;
+  gap: 10px;
+
+}
+.navlogo p{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(90, 86, 86);
+}
+.navmenu{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    color: gray;
+    font-weight: 500;
+    align-items: center;
+}
+.navmenu li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.navmenu li:hover{
+    color: rgb(240, 190, 97);
+    transform: scale(2.05);
+}
+.cart{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.cart button{
+    background-color: rgb(240, 190, 97);
+    border: none;
+    width: 100px;
+    height: 30px;
+    outline: none;
+    border-radius: 75px;
+    font-weight: 500;
+    cursor: pointer;
+    color: gray;
+}
+.cart button :hover{
+    background-color:orange;
+    color: white;
+    text-decoration: underline;
+}
+.navcartcount{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -55px;
+    margin-top: -35px;
+    border-radius: 11px;
+    font-size: 14px;
+    background-color: red;
+    color: white;
+}
+.navmenu a {
+    text-decoration: none; /* Removes underline from links */
+    color: inherit; /* Inherits the color from the parent element or set to desired color */
+    font-weight: normal;
+}
+.cart button a{
+    text-decoration: none;
+    color: grey;
+}
+
+    

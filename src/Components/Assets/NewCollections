@@ -1,0 +1,77 @@
+import kids1 from './kids1.webp'
+import kids2 from './kids2.webp'
+import kids3 from './kids3.jpg'
+import kids4 from './kids4.webp'
+import kids5 from './kids5.webp'
+import kids6 from './kids6.webp'
+import kids7 from './kids7.webp'
+import kids8 from './kids9.webp'
+import kids9 from './kids8.webp'
+
+let new_collections=[
+    {
+        id:1,
+        name:"Pink and Purple Bandhani Georgette Saree with Sequins Embroidery and Redymade Blouse-SR27425",
+        image:kids1,
+        new_price:3200,
+        old_price:5000,
+    },
+    {
+        id:2,
+        name:"Red Silk Organza Saree with Abla Work and Readymade Blouse-GE3578",
+        image:kids2,
+        new_price:3200,
+        old_price:5000,
+    },
+    {
+        id:3,
+        name:"Red & Gold Dual Tone Tissue Orgazna Designer Saree With Sequins Work And Readymade Blouse-GE3498",
+        image:kids3,
+        new_price:5000,
+        old_price:80000,
+    },
+    {
+        id:4,
+        name:"Green Silk Organza Saree with Abla Work and Readymade Blouse-GE35",
+        image:kids4,
+        new_price:20000,
+        old_price:10000,
+    },
+    {
+        id:5,
+        name:"Yellow Organza Designer Saree With Sequins Work And Readymade Blouse-GD3203",
+        image:kids5,
+        new_price:56000,
+        old_price:97000,
+    },
+    {
+        id:6,
+        name:"Pink Silk Organza Saree with Abla Work and Readymade Blouse-GE3533",
+        image:kids6,
+        new_price:30000,
+        old_price:50000,
+    },
+    {
+        id:7,
+        name:"Pink Silk Organza Saree with Abla Work and Readymade Blouse-GE3533",
+        image:kids7,
+        new_price:30000,
+        old_price:50000,
+    },
+    {
+        id:8,
+        name:"Pink Silk Organza Saree with Abla Work and Readymade Blouse-GE3533",
+        image:kids8,
+        new_price:30000,
+        old_price:50000,
+    },
+    {
+        id:9,
+        name:"Pink Silk Organza Saree with Abla Work and Readymade Blouse-GE3533",
+        image:kids9,
+        new_price:30000,
+        old_price:50000,
+    },
+   
+];
+export default new_collections

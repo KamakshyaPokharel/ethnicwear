@@ -1,0 +1,64 @@
+.newsletter {
+    text-align: center;
+    padding: 20px;
+    /* background-color: gray; */
+    
+        page-break-before: always;
+        margin-top: 230vh; /* Adjust based on your requirement */
+    }
+  
+  
+  .newsletter h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter-input {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .newsletter-input input {
+    width: 300px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .newsletter-input button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f8f8f8;
+    padding: 20px;
+  }
+  
+  .feature {
+    max-width: 30%;
+    text-align: left;
+  }
+  
+  .feature .icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .feature h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    font-size: 14px;
+  }
+  

@@ -1,0 +1,8 @@
+.offer {
+    page-break-before: always;
+    margin-top: 160vh; /* Adjust based on your requirement */
+}
+.offer-left img{
+    height: auto;
+    width: 100%;
+}

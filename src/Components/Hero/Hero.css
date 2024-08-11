@@ -1,0 +1,48 @@
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Adjust based on your needs */
+    overflow: hidden;
+    background-color: #f0f0f0; /* Optional: add background color to visualize the container */
+}
+
+.image-wrapper {
+    width: 80%; /* Adjust based on your needs */
+    height: 100%; /* Ensure the image takes full height of the container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-image {
+    width: auto;
+    height: 100%;
+    display: block;
+}
+
+.carousel-button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.carousel-button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.carousel-button.prev {
+    left: 10px;
+}
+
+.carousel-button.next {
+    right: 10px;
+}
