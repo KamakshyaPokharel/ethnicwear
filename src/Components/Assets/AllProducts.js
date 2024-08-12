@@ -1,5 +1,4 @@
 import pic18 from '../Assets/saree11.webp'
-// import pic17 from '../Assets/saree1.webp'
 import pic19 from '../Assets/saree22.webp'
 import pic20 from '../Assets/saree33.webp'
 import pic21 from '../Assets/saree44.webp'
@@ -22,8 +21,7 @@ import pic37 from '../Assets/kids6.webp'
 import pic38 from '../Assets/kids7.webp'
 import pic39 from '../Assets/kids8.webp'
 import pic40 from '../Assets/kids9.webp'
-// import pic41 from '../Assets/kids22.webp'
-// import pic42 from '../Assets/kids33.webp'
+
 
 let all_products=[
     {
@@ -37,11 +35,7 @@ let all_products=[
         sareePetticoat:1000,
         blouseStitching:500,
         
-
-        
-
-
-    },
+   },
     {
         id:2,
         name:"Red Silk Organza Saree with Abla Work and Readymade Blouse-GE3578",
